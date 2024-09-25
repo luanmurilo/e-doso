@@ -1,0 +1,31 @@
+body {
+    background-color: #efefef;
+    margin: 0px;
+}
+
+#navbar {
+    background-color: #a2a2a2;
+    margin: 0px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#ul-navbar {
+    display: flex;
+    list-style: none;
+}
+
+#navbar ul li a, #nav-titulo {
+    text-decoration: none;
+    color: #0022ff;
+  }
+
+li {
+    padding: 5px;
+}
+
+#container-main {
+    display: flex;
+    justify-content: center;
+}
