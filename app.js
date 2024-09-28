@@ -19,6 +19,10 @@ app.get("/cadastrologin", (req, res) => {
   res.render("cadastroLogin");
 });
 
+app.get("/cursos", (req, res) => {
+  res.render("selecionaCurso");
+});
+
 app.listen(porta, (err) => {
   if (err) {
     console.log("Erro ao iniciar servidor na porta " + porta);
