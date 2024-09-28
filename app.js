@@ -12,8 +12,11 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 app.get("/", (req, res) => {
-  //res.send("Olá servidor!");
   res.render("login");
+});
+
+app.get("/cadastrologin", (req, res) => {
+  res.render("cadastroLogin");
 });
 
 app.listen(porta, (err) => {
